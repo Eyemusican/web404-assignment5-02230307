@@ -1,0 +1,11 @@
+- Nikto v2.1.5/2.1.5
+- Nikto v2.1.5/2.1.5
++ Target Host: LAPTOP-9B47IDTF.mshome.net
++ Target Port: 3000
++ GET /: Retrieved x-powered-by header: Express
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0xW/365 0x5QgZ/mz3Cx+R5CDWGsAa+pVbZl4 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ GET /Nm0bElIP.pt: Uncommon header 'content-security-policy' found, with contents: default-src 'none'
++ GET /Nm0bElIP.pt: Uncommon header 'x-content-type-options' found, with contents: nosniff
++ OPTIONS /: Allowed HTTP Methods: GET, HEAD 
++ -3092: GET /login/: /login/: This might be interesting...
